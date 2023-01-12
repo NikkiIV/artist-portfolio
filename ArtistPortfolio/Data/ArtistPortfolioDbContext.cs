@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ArtistPortfolio.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ArtistPortfolioDbContext : IdentityDbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public ArtistPortfolioDbContext(DbContextOptions<ArtistPortfolioDbContext> options)
             : base(options)
         {
         }
